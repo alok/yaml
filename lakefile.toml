@@ -1,0 +1,14 @@
+name = "LeanYaml"
+version = "0.1.0"
+defaultTargets = ["leanyaml"]
+
+[[lean_lib]]
+name = "LeanYaml"
+
+[[lean_exe]]
+name = "leanyaml"
+root = "Main"
+
+[[lean_exe]]
+name = "leanyaml_tests"
+root = "Test.Main"

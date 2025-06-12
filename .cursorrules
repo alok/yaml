@@ -1,0 +1,7 @@
+goal: port haskell yaml library to lean 4.
+
+- [ ] install haskell yaml as worktree and use it to port the library by incremental verification.
+
+- [ ] add custom syntax for yaml to lean 4.
+
+# For detailed agent workflow see `agents.md` (symlinked as `llms.txt`, `agent.md`).
